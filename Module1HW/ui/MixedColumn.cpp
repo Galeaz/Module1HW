@@ -1,4 +1,4 @@
-// Names: Gabriela Lopez, Andrew Thompson, Duyen Tran, Long Duong, Christopher Gomez, Gia Minh Hoang, and Lincoln Nguyen
+// Participant: Long Duong
 // Date: 02-12-21
 // Description: Implementation of various non-templated functions that output the display width of various types.
 

@@ -1,4 +1,4 @@
-// Names: Gabriela Lopez, Andrew Thompson, Duyen Tran, Long Duong, Christopher Gomez, Gia Minh Hoang, and Lincoln Nguyen
+// Participant: Long Duong
 // Date: 02-12-21
 // Description: Provides an abstract interface for objects contained in the Table class.
 

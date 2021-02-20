@@ -1,4 +1,4 @@
-// Names: Gabriela Lopez, Andrew Thompson, Duyen Tran, Long Duong, Christopher Gomez, Gia Minh Hoang, and Lincoln Nguyen
+// Participant: Long Duong
 // Date: 02-12-21
 // Description: Provide a convenient class for creating a choice-based UI.
 

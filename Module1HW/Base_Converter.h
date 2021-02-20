@@ -1,5 +1,5 @@
 ﻿#pragma once
-// Names: Gabriela Lopez, Andrew Thompson, Duyen Tran, Long Duong, Christopher Gomez, Gia Minh Hoang, and Lincoln Nguyen
+// Participants: Gia Minh Hoang, Andrew Thompson, and Gabriela Lopez
 // Date: 02-12-21
 // Description: Chapter 1 - Base Converter
 
