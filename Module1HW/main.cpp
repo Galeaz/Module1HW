@@ -1,4 +1,4 @@
-// Name: Gabriela Lopez
+// Names: Gabriela Lopez, Andrew Thompson, Duyen Tran, Long Duong, Christopher Gomez, Gia Minh Hoang, and Lincoln Nguyen
 // Date: 02-12-21
 // Description: Chapter 1 Solution
 
@@ -8,14 +8,8 @@ using namespace std;
 
 #include "input.h"
 #include "ASCIIConverter.h"
-#include "Base Converter.h"
-#include "ui/Table.h"
-#include "ui/OptionUI.h"
+#include "Base_Converter.h"
 #include "statisticsUI.h"
-#include "ui/Parameter.h"
-#include "statisticsUI.h"
-#include "ui/MixedColumn.h"
-
 
 int menuOption();
 void ASCIIConverter();
@@ -73,7 +67,7 @@ int menuOption()
 //Postcondition: Contains the ASCII Converter
 void ASCIIConverter()
 {
-	using namespace GabyL1;
+	using namespace Group1AC;
 	int menuOption;
 	vector<int>results;
 	header();
@@ -102,14 +96,15 @@ void ASCIIConverter()
 //Postcondition: Contains the Base Converter
 void baseConverter()
 {
-	int num = 0, base = 0;
-	BaseConverterMain(num, base);
+	using namespace Group1BC;
+	BaseConverterMain();
 }
 
 //Precondition: N/A
 //Postcondition: Contains the Descriptive Statistics
 void descriptiveStatistics()
 {
+	using namespace Group1DS;
 	auto ui = StatsUI();
 	ui.run();
 }

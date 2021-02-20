@@ -1,4 +1,4 @@
-// Name: Gabriela Lopez
+// Names: Gabriela Lopez, Andrew Thompson, Duyen Tran, Long Duong, Christopher Gomez, Gia Minh Hoang, and Lincoln Nguyen
 // Date: 02-12-21
 // Description: Chapter 1 - ASCII Text to ASCII Number Converter
 
@@ -10,7 +10,7 @@
 #include <fstream>
 using namespace std;
 
-namespace GabyL1
+namespace Group1AC
 {
 	//Precondition: N/A
 	//Postcondition: Prints header

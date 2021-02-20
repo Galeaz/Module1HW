@@ -1,5 +1,5 @@
-// Long Duong 
-// 02/18/2020
+// Names: Gabriela Lopez, Andrew Thompson, Duyen Tran, Long Duong, Christopher Gomez, Gia Minh Hoang, and Lincoln Nguyen
+// Date: 02-12-21
 // Description: Provides an input function that look for input of a particular type.
 
 #ifndef PROJ1_INPUTTYPE_H

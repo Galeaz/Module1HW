@@ -1,5 +1,5 @@
-// Name : Long Duong 
-// Date: 02/18/2020
+// Names: Gabriela Lopez, Andrew Thompson, Duyen Tran, Long Duong, Christopher Gomez, Gia Minh Hoang, and Lincoln Nguyen
+// Date: 02-12-21
 // Description: Implements methods that display choices and process user choices.
 
 #include "statisticsUI.h"
@@ -7,9 +7,25 @@
 
 using namespace std;
 using namespace config;
+using namespace Group1DS;
+
+void StatsUI::header()
+{
+    cout << '\n';
+    cout << "\t\t\t" << char(201) << string(46, char(205)) << char(187) << '\n';
+    cout << "\t\t\t" << char(186) << " CMPR131: Chapter 1 - Descriptive Statistics  " << char(186) << '\n';
+    cout << "\t\t\t" << char(186) << "      \t\t    Made by:                   " << char(186) << '\n';
+    cout << "\t\t\t" << char(186) << "   - Gabriela Lopez\t- Andrew Thompson      " << char(186) << '\n';
+    cout << "\t\t\t" << char(186) << "   - Duyen Tran\t- Long Duong           " << char(186) << '\n';
+    cout << "\t\t\t" << char(186) << "   - Christopher Gomez\t- Gia Minh Hoang       " << char(186) << '\n';
+    cout << "\t\t\t" << char(186) << "   - Lincoln Nguyen                           " << char(186) << '\n';
+    cout << "\t\t\t" << char(200) << string(46, char(205)) << char(188) << "\n\n";
+}
+
 
 void StatsUI::showCurrentState()
 {
+    header();
     auto* optionColumn1 = new MixedColumn (DEFAULT_LEFT_PADDING, DEFAULT_RIGHT_PADDING, L"");
     optionColumn1->addItems(
         L"A> Load data file",
@@ -40,7 +56,7 @@ void StatsUI::showCurrentState()
         L"U> Coefficient of Variation",
         L"V> Relative Standard Deviation"
     );
-    Table({ optionColumn1, optionColumn2 }, L"3> Descriptive Statistics").dumpTableTo(wcout);
+    Table({ optionColumn1, optionColumn2 }, L"").dumpTableTo(wcout);
 }
 
 
@@ -236,4 +252,5 @@ void StatsUI::displayAllResultAndWriteToFile()
     }
     table.dumpTableTo(outFile);
     wcout << L"Summary was written to file." << endl;
+
 }

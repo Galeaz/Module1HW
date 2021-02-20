@@ -1,5 +1,5 @@
-// Name : Long Duong 
-// Date: 02/18/2020
+// Names: Gabriela Lopez, Andrew Thompson, Duyen Tran, Long Duong, Christopher Gomez, Gia Minh Hoang, and Lincoln Nguyen
+// Date: 02-12-21
 // Description: A class that does various statistic metrics on a sorted array.
 
 #ifndef PROJ1_STATISTICS_H
@@ -106,7 +106,7 @@ public:
 
     // Preconditions: Instance was initialized with more than 0 element.
     // Postconditions: Return number of elements.
-    size_t getSize() const
+    long getSize() const
     {
         return elements.size();
     }
@@ -239,7 +239,7 @@ public:
     {
         auto outliers = vector<T>();
         if (!getOutlierFence().has_value()) return outliers;
-        auto fence = getOutlierFence().value();
+        const auto& fence = getOutlierFence().value();
         copy_if(
             elements.cbegin(), elements.cend(),
             back_inserter(outliers),
@@ -314,7 +314,7 @@ public:
     // Postconditions: Return skewness
     optional<double> getSkewness() const
     {
-        size_t n = getSize();
+        double n = getSize();
         if (n * pow(getStandardDeviation(), 3) == 0.0 || (n - 1)*(n - 2) == 0.0)
             return nullopt;
         double coefficient = static_cast<double>(n) / ((n - 1) * (n - 2));

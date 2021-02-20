@@ -1,5 +1,5 @@
-// Name : Long Duong 
-// Date: 02/18/2020
+// Names: Gabriela Lopez, Andrew Thompson, Duyen Tran, Long Duong, Christopher Gomez, Gia Minh Hoang, and Lincoln Nguyen
+// Date: 02-12-21
 // Description: A class that renders columns with nice formatting.
 
 #ifndef PROJ1_TABLE_H

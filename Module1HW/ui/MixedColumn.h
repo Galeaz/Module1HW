@@ -1,5 +1,5 @@
-// Name : Long Duong 
-// Date: 02/18/2020
+// Names: Gabriela Lopez, Andrew Thompson, Duyen Tran, Long Duong, Christopher Gomez, Gia Minh Hoang, and Lincoln Nguyen
+// Date: 02-12-21
 // Description: Provide a column class that accepts an arbitrary number of parameters of various types.
 
 
@@ -24,18 +24,16 @@ size_t displayLength(const wchar_t* cStr);
 size_t displayLength(wstring WideStr);
 size_t displayLength(char);
 
-
 // Preconditions: A numerical type.
 // Postconditions: The width it takes to display the value on screen.
 template<typename IntegerType,
-        typename enable_if<is_integral<IntegerType>::value, int>::type = 0>
-size_t displayLength(const IntegerType& var)
+    typename enable_if<is_integral<IntegerType>::value, int>::type = 0>
+    size_t displayLength(const IntegerType& var)
 {
     if (var < 0) return static_cast<size_t>(log10(-var) + 1 + 1);
     else if (var == 0) return 1;
     else return static_cast<size_t>(log10(var) + 1);
 }
-
 
 // Preconditions: A floating type (float, double, ...).
 // Postconditions: The width it takes to display the value on screen.
