@@ -1,4 +1,4 @@
-// Participant: Long Duong
+// Participants: Long Duong and Gabriela Lopez
 // Date: 02-12-21
 // Description: A class that interacts with user to compute various statistics related metrics.
 

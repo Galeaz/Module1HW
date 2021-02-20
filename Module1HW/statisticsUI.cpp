@@ -1,4 +1,4 @@
-// Participant: Long Duong
+// Participant: Long Duong and Gabriela Lopez
 // Date: 02-12-21
 // Description: Implements methods that display choices and process user choices.
 

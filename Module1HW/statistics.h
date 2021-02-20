@@ -1,4 +1,4 @@
-// Participant: Long Duong
+// Participant: Long Duong and Gabriela Lopez
 // Date: 02-12-21
 // Description: A class that does various statistic metrics on a sorted array.
 
