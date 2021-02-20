@@ -33,6 +33,11 @@ namespace Group1BC
 	void getInput(int& num, int& check)
 	{
 		num = inputInteger("\n\tEnter an integer number of base 10: ");
+		cout << "\n\tNumber entered: " << num << "\n\n";
+		cin.clear();
+		cin.ignore(999,'\n');
+		cout << '\t';
+		system("pause");
 		check = 1;
 	}
 
@@ -239,7 +244,7 @@ namespace Group1BC
 			cout << "\tX> Return\n";
 			cout << "==========================================================\n";
 			char option = inputChar("\tOption:", optionAllowed);
-
+			
 			switch (toupper(option))
 			{
 			case 'A': getInput(num, check); break;
