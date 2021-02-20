@@ -33,7 +33,6 @@ namespace Group1BC
 	void getInput(int& num, int& check)
 	{
 		num = inputInteger("\n\tEnter an integer number of base 10: ");
-		cout << "\n";
 		check = 1;
 	}
 

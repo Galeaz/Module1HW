@@ -137,7 +137,10 @@ int inputInteger(string prompt)
 			cin.ignore(999, '\n');
 		}
 		else
+		{
+			cin.ignore('\n', 999);
 			break;
+		}
 	} while (true);
 	return input;
 }
