@@ -22,9 +22,8 @@ namespace Group1AC
 		cout << '\t' << char(186) << "    CMPR131: Chapter 1 - ASCII Converter  " << char(186) << '\n';
 		cout << '\t' << char(186) << "      \t\t  Made by:                 " << char(186) << '\n';
 		cout << '\t' << char(186) << " - Gabriela Lopez\t- Andrew Thompson  " << char(186) << '\n';
-		cout << '\t' << char(186) << " - Duyen Tran\t\t- Long Duong       " << char(186) << '\n';
+		cout << '\t' << char(186) << " - Lincoln Nguyen\t- Long Duong       " << char(186) << '\n';
 		cout << '\t' << char(186) << " - Christopher Gomez\t- Gia Minh Hoang   " << char(186) << '\n';
-		cout << '\t' << char(186) << " - Lincoln Nguyen                         " << char(186) << '\n';
 		cout << '\t' << char(200) << string(42, char(205)) << char(188) << "\n\n";
 	}
 

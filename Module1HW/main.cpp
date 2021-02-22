@@ -44,9 +44,8 @@ int menuOption()
 	cout << '\t' << char(186) << "    \t    CMPR131: Chapter 1             " << char(186) << '\n';
 	cout << '\t' << char(186) << "      \t\t  Made by:                 " << char(186) << '\n';
 	cout << '\t' << char(186) << " - Gabriela Lopez\t- Andrew Thompson  " << char(186) << '\n';
-	cout << '\t' << char(186) << " - Duyen Tran\t\t- Long Duong       " << char(186) << '\n';
+	cout << '\t' << char(186) << " - Lincoln Nguyen\t- Long Duong       " << char(186) << '\n';
 	cout << '\t' << char(186) << " - Christopher Gomez\t- Gia Minh Hoang   " << char(186) << '\n';
-	cout << '\t' << char(186) << " - Lincoln Nguyen                         " << char(186) << '\n';
 	cout << "\t" << char(204) << string(42, char(205)) << char(185) << "\n";
 	cout << "\t" << char(186) << "   1: ASCII Text to ASCII Numbers         " << char(186) << "\n";
 	cout << "\t" << char(186) << "   2: Base Converter                      " << char(186) << "\n";

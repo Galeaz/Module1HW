@@ -16,9 +16,8 @@ void StatsUI::header()
     cout << "\t\t\t" << char(186) << " CMPR131: Chapter 1 - Descriptive Statistics  " << char(186) << '\n';
     cout << "\t\t\t" << char(186) << "      \t\t    Made by:                   " << char(186) << '\n';
     cout << "\t\t\t" << char(186) << "   - Gabriela Lopez\t- Andrew Thompson      " << char(186) << '\n';
-    cout << "\t\t\t" << char(186) << "   - Duyen Tran\t- Long Duong           " << char(186) << '\n';
+    cout << "\t\t\t" << char(186) << "   - Lincoln Nguyen\t- Long Duong           " << char(186) << '\n';
     cout << "\t\t\t" << char(186) << "   - Christopher Gomez\t- Gia Minh Hoang       " << char(186) << '\n';
-    cout << "\t\t\t" << char(186) << "   - Lincoln Nguyen                           " << char(186) << '\n';
     cout << "\t\t\t" << char(200) << string(46, char(205)) << char(188) << "\n\n";
 }
 
