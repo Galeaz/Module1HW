@@ -53,12 +53,9 @@ int menuOption()
 	cout << "\t" << char(199) << string(42, char(196)) << char(182) << "\n";
 	cout << "\t" << char(186) << "   0: Exit                                " << char(186) << "\n";
 	cout << "\t" << char(200) << string(42, char(205)) << char(188) << "\n";
-	cout << "\t    Option: ";
 
-	int option;
-	cin >> option;
+	int option = inputInteger("\t    Option: ", 0, 3);
 	cin.clear();
-	cin.ignore(999, '\n');
 	return option;
 }
 
